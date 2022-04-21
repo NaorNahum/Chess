@@ -1,0 +1,42 @@
+h1{
+  text-align: center;
+  color: brown;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 100px;
+  border: 70px solid firebrick;
+}
+tr {
+  margin: 0px;
+  border: 1px solid black;
+}
+td {
+  margin: 0px;
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+}
+
+
+.light-cell {
+  background: rgb(211, 210, 210);
+  width: 45px;
+  height: 45px;
+}
+
+.dark-cell {
+  background: rgb(63, 63, 63);
+  width: 45px;
+  height: 45px;
+}
+
+.selected {
+  background: rgb(197, 197, 83);
+}
+
+.possible-move {
+  background: rgb(221, 142, 46);
+}
