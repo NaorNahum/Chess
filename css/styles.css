@@ -7,7 +7,7 @@ table {
   margin: 0 auto;
   border-collapse: collapse;
   margin-top: 100px;
-  border: 70px solid firebrick;
+  border: 10px solid brown;
 }
 tr {
   margin: 0px;
@@ -22,21 +22,21 @@ td {
 
 
 .light-cell {
-  background: rgb(211, 210, 210);
+  background: antiquewhite;
   width: 45px;
   height: 45px;
 }
 
 .dark-cell {
-  background: rgb(63, 63, 63);
+  background: gray;
   width: 45px;
   height: 45px;
 }
 
 .selected {
-  background: rgb(197, 197, 83);
+  background: limegreen;
 }
 
 .possible-move {
-  background: rgb(221, 142, 46);
+  background: orange;
 }
