@@ -105,5 +105,3 @@ function initGame() {
 }
 
 window.addEventListener("load", initGame);
-
-//hey ma kore hevre
