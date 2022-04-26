@@ -51,6 +51,7 @@ function onCellClick(row, col) {
     tryUpdateSelectedPiece(row, col);
   }
 }
+// function movePiece(row, col, row1, col1) {}
 
 // Adds an image to cell with the piece's image
 function addImage(cell, player, name) {
@@ -75,7 +76,7 @@ function createChessBoard(boardData) {
   table.id = CHESS_BOARD_ID;
   document.body.appendChild(table);
   for (let row = 0; row < BOARD_SIZE; row++) {
-    const rowElement = table.insertRow();
+    const rowElement = TABLE.insertRow();
     for (let col = 0; col < BOARD_SIZE; col++) {
       const cell = rowElement.insertCell();
       if ((row + col) % 2 === 0) {
@@ -86,6 +87,10 @@ function createChessBoard(boardData) {
       cell.addEventListener("click", () => onCellClick(row, col));
     }
   }
+  BOARD_DATA = new BoardData(getInitialPieces());
+  console.log(BOARD_DATA);
+  pieces = BOARD_DATA.pieces;
+  console.log(pieces);
 
   // Add pieces images to board
   for (let piece of boardData.pieces) {
