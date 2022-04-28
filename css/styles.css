@@ -4,25 +4,25 @@ table {
 }
 
 .light-cell {
-  background: rgb(211, 210, 210);
+  background: antiquewhite;
   width: 48px;
   height: 48px;
   user-select: none;
 }
 
 .dark-cell {
-  background: rgb(63, 63, 63);
+  background: gray;
   width: 48px;
   height: 48px;
   user-select: none;
 }
 
 .selected {
-  background: rgb(197, 197, 83);
+  background: limegreen;
 }
 
 .possible-move {
-  background: rgb(221, 142, 46);
+  background: orange;
 }
 
 .winner-dialog {
@@ -38,4 +38,6 @@ table {
 
 .title {
   text-align: center;
+  color: grey;
+  text-decoration: underline;
 }
